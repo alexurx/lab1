@@ -63,24 +63,24 @@ Returns a list of transaction descriptions.
 
 ## There are several primitive data types in JavaScript:
 
-Undefined: Indicates the value of a variable that has been declared but not initialized.
-Boolean: Accepts only two values: true and false.
-Number (Number): Represents a numeric value.
-String (String): A sequence of characters.
-BigInt: Used to represent very large integers.
-Symbol: Introduced in ECMAScript 6, represents unique and immutable values.
-Null (Null type): A special primitive used not only for data, but also as a pointer to the final point in a prototype chain.
-Object: A simple structure used not only for storing data, but also for creating other structures such as arrays, maps, sets, and dates.
+1. Undefined: Indicates the value of a variable that has been declared but not initialized.
+2. Boolean: Accepts only two values: true and false.
+3. Number (Number): Represents a numeric value.
+4. String (String): A sequence of characters.
+5. BigInt: Used to represent very large integers.
+6. Symbol: Introduced in ECMAScript 6, represents unique and immutable values.
+7. Null (Null type): A special primitive used not only for data, but also as a pointer to the final point in a prototype chain.
+8. Object: A simple structure used not only for storing data, but also for creating other structures such as arrays, maps, sets, and dates.
 
 ## Regarding array methods, the following methods can be used in the application to process and analyze data:
 
-map(): Creates a new array by applying a function to each element of the original array.
-filter(): Returns a new array containing only those elements that satisfy the given condition.
-reduce(): Applies the function to the accumulator and each element of the array, returning a single value.
-forEach(): Executes the specified function for each element of the array.
-sort(): Sorts the elements of the array.
-find(): Returns the first element that satisfies the specified condition.
-some() and every(): Checks whether at least one or all elements of the array satisfy the given condition.
+1. map(): Creates a new array by applying a function to each element of the original array.
+2. filter(): Returns a new array containing only those elements that satisfy the given condition.
+3. reduce(): Applies the function to the accumulator and each element of the array, returning a single value.
+4. forEach(): Executes the specified function for each element of the array.
+5. sort(): Sorts the elements of the array.
+6. find(): Returns the first element that satisfies the specified condition.
+7. some() and every(): Checks whether at least one or all elements of the array satisfy the given condition.
 
 ## The role of the class constructor
 The role of the class constructor is to create and initialize objects created using the class. The constructor allows for initial initialization, which must be done before other methods can be called. A class can have only one method named "constructor". If the class is derived, the constructor by default calls the parent constructor, passing the arguments that were provided.
