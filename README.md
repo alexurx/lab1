@@ -88,12 +88,11 @@ The role of the class constructor is to create and initialize objects created us
 ## To create a new instance of a class in JavaScript, use the new keyword. For example:
 
 ```js
-class Person {
-  constructor(name) {
-    this.name = name;
+class TransactionAnalyzer {
+  constructor(transactions) {
+    this.transactions = transactions;
   }
 }
 
-const personInstance = new Person('John');
+const transactionAnalyzer = new TransactionAnalyzer(transactions);
 ```
-In this example, personInstance will be a new instance of the Person class, and its name property will be set to 'John'.
