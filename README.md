@@ -1,91 +1,91 @@
-## Description of individual work
+## Описание индивидуальной работы
 
-Create a console application, to analyze transactions. Individual work involves the use of classes, objects, and the use of methods for working with lists.
+Создать консольное приложение для анализа транзакций. Индивидуальная работа предполагает использование классов, объектов и применение методов для работы со списками.
 
-## Brief documentation for the project
+## Краткая документация по проекту
 
-The `TransactionAnalyzer` class is a tool for analyzing a list of transactions. It contains methods for working with transactions, such as adding a new transaction, retrieving a list of all transactions, calculating transaction totals, and others.  
-The main methods are:
+Класс `TransactionAnalyzer` - это инструмент для анализа списка транзакций. Он содержит методы для работы с транзакциями, такие как добавление новой транзакции, получение списка всех транзакций, вычисление итогов транзакций и другие.  
+Основными методами являются:
 
 ## constructor(transactions)
-Class constructor. Accepts a list of transactions and initializes the allTransactions field.
+Конструктор класса. Принимает список транзакций и инициализирует поле allTransactions.
 
 ## addTransaction(transaction)
-Adds a transaction to the list of all transactions.
+Добавляет транзакцию в список всех транзакций.
 
 ## getAllTransaction()
-Returns a list of all transactions.
+Возвращает список всех транзакций.
 
 ## getUniqueTransactionType()
-Returns an array of unique transaction types.
+Возвращает массив уникальных типов транзакций.
 
 ## calculateTotalAmount()
-Returns the total amount of all transactions.
+Возвращает общую сумму всех транзакций.
 
 ## calculateTotalAmountByDate(year, month, day)
-Returns the total amount of transactions for the specified year, month, and day.
+Возвращает общую сумму транзакций за указанные год, месяц и день.
 
 ## getTransactionByType(type)
-Returns a list of transactions by the specified type.
+Возвращает список транзакций по указанному типу.
 
 ## getTransactionsInDateRange(startDate, endDate)
-Returns a list of transactions in the specified date range.
+Возвращает список транзакций в указанном диапазоне дат.
 
 ## getTransactionsByMerchant(merchantName)
-Returns a list of transactions for the specified merchant.
+Возвращает список транзакций для указанного продавца.
 
 ## calculateAverageTransactionAmount()
-Returns the average transaction amount.
+Возвращает среднюю сумму транзакции.
 
 ## getTransactionsByAmountRange(minAmount, maxAmount)
-Returns a list of transactions in the specified amount range.
+Возвращает список транзакций в указанном диапазоне сумм.
 
 ## calculateTotalDebitAmount()
-Returns the total amount of debit transactions.
+Возвращает общую сумму дебетовых транзакций.
 
 ## findMostTransactionsMonth()
-Returns the number of the month that had the highest number of transactions.
+Возвращает номер месяца, в котором было совершено наибольшее количество транзакций.
 
 ## findMostDebitTransactionMonth()
-Returns the number of the month that had the most debit transactions.
+Возвращает номер месяца, в котором было совершено наибольшее количество дебетовых транзакций.
 
 ## mostTransactionTypes()
-Determines which transaction type (credit or debit) predominates.
+Определяет, какой тип транзакций (кредитный или дебетовый) преобладает.
 
 ## getTransactionsBeforeDate(date)
-Returns a list of transactions made before the specified date.
+Возвращает список транзакций, совершенных до указанной даты.
 
 ## findTransactionById(id)
-Finds a transaction by its id.
+Находит транзакцию по ее идентификатору.
 
 ## mapTransactionDescriptions()
-Returns a list of transaction descriptions.
+Возвращает список описаний транзакций.
 
-## There are several primitive data types in JavaScript:
+## В JavaScript существует несколько примитивных типов данных:
 
-1. Undefined: Indicates the value of a variable that has been declared but not initialized.
-2. Boolean: Accepts only two values: true and false.
-3. Number (Number): Represents a numeric value.
-4. String (String): A sequence of characters.
-5. BigInt: Used to represent very large integers.
-6. Symbol: Introduced in ECMAScript 6, represents unique and immutable values.
-7. Null (Null type): A special primitive used not only for data, but also as a pointer to the final point in a prototype chain.
-8. Object: A simple structure used not only for storing data, but also for creating other structures such as arrays, maps, sets, and dates.
+1. Неопределенный: Указывает на значение переменной, которая была объявлена, но не инициализирована.
+2. Булево: Принимает только два значения: true и false.
+3. Число (Number): Представляет числовое значение.
+4. Строка (String): Последовательность символов.
+5. BigInt: Используется для представления очень больших целых чисел.
+6. Символ: Введен в ECMAScript 6, представляет уникальные и неизменяемые значения.
+7. Null (тип Null): Специальный примитив, используемый не только для данных, но и как указатель на конечную точку в цепочке прототипов.
+8. Объект (Object): Простая структура, используемая не только для хранения данных, но и для создания других структур, таких как массивы, карты, множества и даты.
 
-## Regarding array methods, the following methods can be used in the application to process and analyze data:
+## Что касается методов массивов, то следующие методы могут быть использованы в приложении для обработки и анализа данных:
 
-1. map(): Creates a new array by applying a function to each element of the original array.
-2. filter(): Returns a new array containing only those elements that satisfy the given condition.
-3. reduce(): Applies the function to the accumulator and each element of the array, returning a single value.
-4. forEach(): Executes the specified function for each element of the array.
-5. sort(): Sorts the elements of the array.
-6. find(): Returns the first element that satisfies the specified condition.
-7. some() and every(): Checks whether at least one or all elements of the array satisfy the given condition.
+1. map(): Создает новый массив путем применения функции к каждому элементу исходного массива.
+2. filter(): Возвращает новый массив, содержащий только те элементы, которые удовлетворяют заданному условию.
+3. reduce(): Применяет функцию к аккумулятору и каждому элементу массива, возвращая одно значение.
+4. forEach(): Выполняет указанную функцию для каждого элемента массива.
+5. sort(): Сортирует элементы массива.
+6. find(): Возвращает первый элемент, удовлетворяющий заданному условию.
+7. some() и every(): Проверяют, удовлетворяет ли заданному условию хотя бы один или все элементы массива.
 
-## The role of the class constructor
-The role of the class constructor is to create and initialize objects created using the class. The constructor allows for initial initialization, which must be done before other methods can be called. A class can have only one method named "constructor". If the class is derived, the constructor by default calls the parent constructor, passing the arguments that were provided.
+## Роль конструктора класса
+Роль конструктора класса заключается в создании и инициализации объектов, созданных с помощью класса. Конструктор позволяет выполнить начальную инициализацию, которая должна быть выполнена до вызова других методов. Класс может иметь только один метод с именем "конструктор". Если класс является производным, то конструктор по умолчанию вызывает конструктор родителя, передавая ему аргументы, которые были предоставлены.
 
-## To create a new instance of a class in JavaScript, use the new keyword. For example:
+## Чтобы создать новый экземпляр класса в JavaScript, используйте ключевое слово new. Например:
 
 ```js
 class TransactionAnalyzer {
